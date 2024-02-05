@@ -46,7 +46,7 @@ class _RegisterPageState extends State<RegisterPage> {
         password: passwordTextController.text
       );
       // pop loading circle
-      if (context.mounted) Navigator.pop(context);
+      if (  context.mounted)  Navigator.of(context, rootNavigator: true).pop();
     } on FirebaseAuthException catch(e) {
       // pop loading circle
       Navigator.pop(context);
