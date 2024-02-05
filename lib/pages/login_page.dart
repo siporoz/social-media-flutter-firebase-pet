@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
         password: passwordTextController.text
       );
       // pop loading circle
-      if (context.mounted) Navigator.pop(context);
+      if (context.mounted) Navigator.of(context, rootNavigator: true).pop();
     } on FirebaseAuthException catch(e) {
       // pop loading circle
       Navigator.pop(context);
