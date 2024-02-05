@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "107539339185",
+    "project_id": "walltutorial-cf107",
+    "storage_bucket": "walltutorial-cf107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107539339185:android:0f26d014223bda74fe4f90",
+        "android_client_info": {
+          "package_name": "com.example.the_wall_flutter_firebase_pet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl9vmpK0GlxWA3pLEMO35r9VWrWzdw0rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
